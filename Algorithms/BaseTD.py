@@ -13,7 +13,7 @@ class BaseTD:
         self.gamma = self.task.GAMMA
         self.alpha = kwargs['alpha']
         self.lmbda = kwargs.get('lmbda')
-        self.state_values = self.task.load_state_values()  # This is of size num_policies * 121
+        self.state_values = self.task.load_state_values()  # This is of size num_policies * 121.
         self.d_mu = self.task.load_behavior_dist()  # same size as state_values
         self.state, self.next_state, self.action = None, None, None
         self.r_vec = np.zeros(self.task.num_policies)
@@ -25,7 +25,7 @@ class BaseTD:
         return ['alpha', 'lmbda']
 
     def compute_value_function(self):
-        return np.dot(self.w, self.task.feature_rep.T)
+        return (np.dot(self.w, self.task.feature_rep.T))
 
     def compute_rmsve(self):
         error = self.compute_value_function() - self.state_values
