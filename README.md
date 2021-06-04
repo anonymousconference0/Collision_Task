@@ -191,7 +191,8 @@ w = w + alpha * delta * z
 <a name='vtrace'></a>
 #### Vtrace (simplified)
 
-**Paper** [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures(http://proceedings.mlr.press/v80/espeholt18a/espeholt18a.pdf)<br>
+**Paper** [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures](
+http://proceedings.mlr.press/v80/espeholt18a/espeholt18a.pdf)<br>
 **Authors** Lasse Espeholt,  Hubert Soyer,  Remi Munos,  Karen Simonyan, Volodymyr Mnih, Tom Ward, Yotam Doron, Vlad Firoiu, Tim Harley, Iain Dunning, Shane Legg, Koray Kavukcuoglu <br>
 
 ```python
