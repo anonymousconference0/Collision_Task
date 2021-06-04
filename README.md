@@ -191,8 +191,7 @@ w = w + alpha * delta * z
 <a name='vtrace'></a>
 #### Vtrace (simplified)
 
-**Paper** [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures]
-(http://proceedings.mlr.press/v80/espeholt18a/espeholt18a.pdf)<br>
+**Paper** [IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures(http://proceedings.mlr.press/v80/espeholt18a/espeholt18a.pdf)<br>
 **Authors** Lasse Espeholt,  Hubert Soyer,  Remi Munos,  Karen Simonyan, Volodymyr Mnih, Tom Ward, Yotam Doron, Vlad Firoiu, Tim Harley, Iain Dunning, Shane Legg, Koray Kavukcuoglu <br>
 
 ```python
@@ -414,7 +413,7 @@ python3 Learning.py --algorithm TD --task EightStateCollision --alpha 0.01
 
 ### Running on Servers with Slurm Workload Managers
 When parameter sweeps are necessary, the code can be run on supercomputers. 
-The current code supports running on servers that use slurm workload managers such as compute canada.
+The current code supports running on servers that use slurm workload managers.
 For exampole, to apply the TD algorithm to the Collision (EightStateCollision) task, with various parameters,
 first you need to create a json file that specifies all the parameters that you would like to run, for example:
 ```json
